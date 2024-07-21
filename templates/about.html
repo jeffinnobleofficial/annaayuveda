@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About
+{% endblock %}
+
+{% block content %}
+
+<body style="background-image: url(../static/images/a8.png);"></body>
+<div class="container mt-5">
+
+    <h1 style="color:rgb(28, 101, 170); font-family: 'Arial', sans-serif; margin-top: 20px;" class="text-center">About
+        Us</h1>
+
+    <!-- <h3 style="color: #4A7A8C; font-family: 'Arial', sans-serif; margin-top: 20px;">Ayurvedic Supplements, Medicines</h3> -->
+
+    <p style="font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.6;">
+        Welcome to Anna Ayurveda Clinic, your trusted destination for holistic healthcare solutions. Nestled at the
+        intersection of traditional wisdom and modern wellness, our clinic specializes in Ayurvedic treatments tailored
+        to address varicose veins, skin diseases, orthopedic concerns, and more.
+    </p>
+
+    <p style="font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.6;">
+        At Anna Ayurveda Clinic, we are dedicated to restoring balance and promoting natural healing through
+        personalized therapies and lifestyle consultations. Our team of skilled Ayurvedic practitioners combines ancient
+        wisdom with contemporary practices to deliver comprehensive healthcare solutions.
+    </p>
+
+    <p style="font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.6;">
+        Whether you are seeking relief from chronic ailments, managing skin conditions, or addressing orthopedic issues,
+        Anna Ayurveda Clinic offers a range of services including rejuvenation therapies, detoxification programs, and
+        specialized treatments. Our holistic approach aims not only to alleviate symptoms but also to enhance your
+        overall well-being.
+    </p>
+
+    <p style="font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.6;">
+        Experience the transformative power of Ayurveda and discover why Anna Ayurveda Clinic is your partner in
+        achieving optimal health. Schedule your consultation today and embark on your journey to wellness with us.
+    </p>
+
+    <p style="text-align: center; font-weight: bold; margin-top: 20px; color: rgb(18, 45, 68); font-style: italic;" class="commitment">
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           "At Anna Ayurveda Clinic, we are dedicated to promoting holistic health through ancient wisdom and modern expertise, ensuring accessible and compassionate care for all."
+        <br>- Joy Joseph<br>Manager
+    </p>
+    
+    <p style="text-align: center; font-weight: bold; margin-top: 20px; color: rgb(18, 45, 68); font-style: italic;" class="commitment">
+        "Committed to providing quality care, where healing begins with a smile."
+        <br>- Betsy Joy<br>PRO
+    </p>
+    
+
+    <!-- Image Gallery Section -->
+    <div class="gallery mt-5">
+        <h2 style="color: rgb(28, 101, 170); font-family: 'Arial', sans-serif; margin-top: 20px;" class="text-center">
+            Gallery</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="../static/images/ann4.jpg" alt="Gallery Image 1" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="../static/images/ann2.jpg" alt="Gallery Image 2" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="../static/images/ann3.jpg" alt="Gallery Image 3" class="img-fluid">
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+
+    <!-- Mission and Vision Section -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h2 style="color: rgb(28, 101, 170); font-family: 'Arial', sans-serif; margin-top: 20px;">Our Mission</h2>
+            <p style="font-weight: bold; font-size: 16px;">
+                Our mission is to provide high-quality medical supplies and services to ensure the well-being of our
+                community.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h2 style="color:rgb(28, 101, 170); font-family: 'Arial', sans-serif; margin-top: 20px;">Our Vision</h2>
+            <p style="font-weight: bold; font-size: 16px;">
+                We envision a healthier future where everyone has access to essential healthcare products.
+            </p>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Section -->
+    <div class="text-center"><br><br>
+        <h2 style="color: rgb(28, 101, 170); font-family: 'Arial', sans-serif; margin-top: 20px;">Why Choose Us?</h2>
+        <ul class="list-group" style="font-weight: bold; font-size: 16px;">
+            <li class="list-group-item">✔️ Quality Products &nbsp;</li>
+            <li class="list-group-item">✔️ Affordable Prices</li>
+            <li class="list-group-item">✔️ Friendly Service&nbsp;&nbsp;</li>
+            <li class="list-group-item">✔️ Consulting &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
+
+<!-- CSS for the gallery -->
+<style>
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .gallery .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .gallery .col-md-4 {
+        flex: 1;
+    }
+</style>

@@ -1,0 +1,138 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+{% load static%}
+<body style=" background-image: url(../static/images/a8.png);">
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <link rel="stylesheet" href="{% static 'file.css' %}">
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1000">
+      <img src="{% static '/images/a10.jpg'%}" class="d-block w-100" alt="...">
+
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="{% static '/images/a5.jpg'%}" class="d-block w-100" alt="...">
+
+    </div>
+    <div class="carousel-item">
+      <img src="{% static '/images/a9.jpg'%}" class="d-block w-100" alt="...">
+
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="{% static '/images/ayurvedha.jpg'%}" class="d-block w-100" alt="...">
+
+    </div> -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- <div class="">
+  <h1>Cure and heal yourself in the way of <b>Nature</b></h1>
+  <p>Health care Ayurveda<br>siddha<br>mobile clinics<br>Treatments<br>consultations<br>speciality clinics<br>Therapies
+    and yoga</p> -->
+
+    <div class="treatments-section" style="padding: 20px; background-color:#f5fafa; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+      <h2 style="text-align: center;
+    color: rgb(28, 101, 170)">Our Treatments</h2>
+      <p>At Ayurvedhics, we offer a comprehensive range of Ayurvedic treatments designed to promote holistic health and well-being. Our approach is rooted in ancient wisdom and tailored to meet individual needs. Here are some key treatments we provide:</p>
+      
+      <div class="treatment-list">
+        <div class="treatment-item">
+          <h3 style="color: rgb(28, 101, 170);
+    margin-bottom: 10px;">Panchakarma Therapy</h3>
+          <p>A detoxification process that removes toxins from the body and restores balance. It includes five therapeutic actions to cleanse and rejuvenate.</p>
+        </div>
+        
+        <div class="treatment-item">
+          <h3 style="color:rgb(28, 101, 170);
+    margin-bottom: 10px;">Herbal Remedies</h3>
+          <p>Customized herbal formulations that address specific health concerns, harnessing the power of natural ingredients for healing.</p>
+        </div>
+        
+        <div class="treatment-item">
+          <h3 style="color: rgb(28, 101, 170);
+    margin-bottom: 10px;">Yoga and Meditation</h3>
+          <p>Integrated practices that enhance physical health and mental clarity, promoting overall wellness.</p>
+        </div>
+        
+        <div class="treatment-item">
+          <h3 style="color: rgb(28, 101, 170);
+    margin-bottom: 10px;">Dietary Consultations</h3>
+          <p>Personalized nutrition plans based on Ayurvedic principles to support digestion and enhance vitality.</p>
+        </div>
+        
+        <div class="treatment-item">
+          <h3 style="color: rgb(28, 101, 170);
+    margin-bottom: 10px;">Rejuvenation Therapies</h3>
+          <p>Treatments aimed at revitalizing the body and mind, including massages, oil therapies, and soothing treatments for stress relief.</p>
+        </div>
+        
+        <div class="treatment-item">
+          <h3 style="color: rgb(28, 101, 170);
+    margin-bottom: 10px;">Chronic Disease Management</h3>
+          <p>Specialized care for chronic conditions, using a holistic approach to improve quality of life.</p>
+        </div>
+        
+        <div class="treatment-item">
+          <h3 style="color:rgb(28, 101, 170);
+    margin-bottom: 10px;">Consultation Services</h3>
+          <p>One-on-one consultations with experienced practitioners to develop tailored treatment plans that align with your health goals.</p>
+        </div>
+      </div>
+      
+      <p style="text-align: center; font-weight: bold; margin-top: 20px;color: rgb(134, 57, 12);" class="commitment" >At Ayurvedhics, we are committed to guiding you on your journey to health through natural and effective treatments. Let us help you achieve balance and harmony in your life.</p>
+    </div>
+    
+
+   
+    
+    <!-- <h3 style="color: #4A7A8C; font-family: 'Arial', sans-serif; margin-top: 20px;">Pros of buying Ayurvedic products online are:</h3>
+    
+    <ul style="font-family: 'Arial', sans-serif; font-size: 23px; line-height: 1.6;">
+        <li>Saves time and money</li>
+        <li>Accessible</li>
+        <li>Privacy</li>
+        <li>Pay with ease etc.</li>
+        <li>A Variety of choices</li>
+    </ul>
+    
+    <p style="font-family: 'Arial', sans-serif; font-size: 14px; line-height: 1.6;">
+        Buying online at Ayurveda Megastore is very easy and convenient. We have helped people all around the world in healing.
+    </p> -->
+    
+    <!-- <h3 style="color: #4A7A8C; font-family: 'Arial', sans-serif; margin-top: 20px;">In today's scenario</h3>
+    <p style="font-family: 'Arial', sans-serif; font-size: 14px; line-height: 1.6;">
+        80% of the world's population uses traditional methods and healing herbs to cure their health issues and buy Ayurvedic products preferably from an online store. With the increasing awareness of modern medicine's side effects, people have shifted their preference to natural therapies and practices. Ayurvedic medicines give long-term relief by curling the root cause of illnesses that too without any side effects.
+    </p>
+    
+    <p style="font-family: 'Arial', sans-serif; font-size: 14px; line-height: 1.6;">
+        Many customers prefer buying Ayurvedic Medicine online because of comfort and quality but also because you get all brands and products in one place. There is a special range of Ayurvedic supplements to purchase online for diabetic patients & immunity boosters on our portal. We have a few brands which sell only on online platforms. Our online stores have enabled customers to get the best of Ayurvedic medicines at affordable prices. We have more than 150 Top brands of Ayurveda listed with us and have 25000+ Ayurveda Products which customer can buy online with one click.
+    </p>
+    
+    <p style="font-family: 'Arial', sans-serif; font-size: 14px; line-height: 1.6;">
+        Ayurveda Megastore provides the highest standard of quality. Buying Ayurvedic medicines online from Ayurveda Megastore provides direct access to genuine healthcare products at the best prices. Our competition in the online segment of ayurvedic medicines is with ourselves only and we are committed to raising the bar of customer satisfaction with every passing day.
+    </p> -->
+    <footer style="text-align: center;">
+      <small>&copy; 2024 Anna Ayurvedic. All Rights Reserved.</small>
+  </footer>
+  </body>
+
+{% endblock %}

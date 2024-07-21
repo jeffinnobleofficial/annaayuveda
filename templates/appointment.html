@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Appointment
+{% endblock %}
+
+{% block content %}
+<br><br><br>
+<body style="background-image: url(../static/images/a8.png);">
+    <br>
+<h1 class="text-center" style="color: rgb(28, 101, 170);">Doctors </h1>
+<hr>
+{% for a in appo %}
+<div class="mx-auto w-50 bg-success text-center text-white p-3 my-3">
+    <h3>{{ a.doct_name }}</h3>
+    <p>{{ a.doc_spec }}</p>
+    
+    <form action="{% url 'contact' %}" method="get">
+        <button type="submit" class="btn btn-primary">Request appointment</button>
+    </form>
+</div>
+{% endfor %}
+{% endblock %}

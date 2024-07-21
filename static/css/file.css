@@ -1,0 +1,100 @@
+li:hover{
+    background-color: rgb(113, 214, 214);
+    border-radius: 10px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lead {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+}
+
+.websites #instagram{
+    color: rgb(120, 23, 100);
+    font-size: 50px;
+    cursor: pointer;
+    top: 240px;
+            left: 1780px;
+            cursor: pointer;
+            z-index: 2000;
+            text-decoration: none
+}
+
+.websites #w{
+    color: rgb(21, 255, 0);
+    font-size: 50px;
+    cursor: pointer;
+    top: 240px;
+            left: 1780px;
+            cursor: pointer;
+            z-index: 2000;
+            text-decoration: none
+
+    
+
+}
+
+.treatments-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .treatments-section h2 {
+    text-align: center;
+    color: #5a5a5a;
+  }
+  
+  .treatments-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .treatment-list {
+    margin: 20px 0;
+  }
+  
+  .treatment-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: box-shadow 0.3s;
+  }
+  
+  .treatment-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .treatment-item h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .commitment {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
